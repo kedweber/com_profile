@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+    <name>Profile</name>
+    <author>Joep van der Heijden</author>
+    <creationDate>September 2014</creationDate>
+    <packagename>profile</packagename>
+    <version>1.0.0</version>
+    <url>http://www.moyoweb.nl/</url>
+    <packager>Jasper van Rijbroek</packager>
+    <packagerurl>http://www.moyoweb.nl/</packagerurl>
+    <description>Profile Package</description>
+    <files folder="packages">
+        <file type="component" id="profile">component</file>
+    </files>
+</extension>
