@@ -15,7 +15,6 @@ class ComProfileControllerUser extends ComDefaultControllerResource
 {
     protected function _actionLogin(KCommandContext $context)
     {
-
         if($context->data->username && $context->data->password) {
             $credentials = array(
                 'username' => $context->data->username,
@@ -28,6 +27,7 @@ class ComProfileControllerUser extends ComDefaultControllerResource
                 $context->status = KHttpResponse::UNAUTHORIZED;
             } else {
                 $context->status = KHttpResponse::OK;
+                JFactory::getApplication()->input->cookie->set('_token', JSession::getFormToken(), 0, '/');
             }
         }
     }
