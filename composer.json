@@ -1,0 +1,17 @@
+{
+    "name": "cta/profile",
+    "type": "joomlatools-installer",
+    "description": "Articles Package.",
+    "keywords": ["joomla", "profile"],
+    "homepage": "https://github.com/cta-int/portals",
+    "authors": [
+        {
+            "name": "Joep van der Heijden",
+            "email": "joep@moyoweb.nl",
+            "homepage": "http://www.moyoweb.nl"
+        }
+    ],
+    "require": {
+        "joomlatools/installer": "*"
+    }
+}
