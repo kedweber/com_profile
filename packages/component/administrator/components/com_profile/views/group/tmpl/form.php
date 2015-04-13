@@ -70,13 +70,13 @@ defined('KOOWA') or die('Protected resource'); ?>
                     </div>
                     
                     <div class="control-group">
-                        <label class="control-label"><?= @text('Users'); ?></label>
+                        <label class="control-label"><?= @text('Groups'); ?></label>
                         <div class="controls">
                             <?= @helper('com://admin/taxonomy.template.helper.listbox.taxonomies', array(
-                                'identifier' => 'com://admin/profile.model.profiles',
-                                'name' => 'users[]',
+                                'identifier' => 'com://admin/profile.model.usergroups',
+                                'name' => 'groups[]',
                                 'attribs' => array('multiple' => true, 'size' => 10, 'class' => 'select2-listbox'),
-                                'selected' => $group->users ? $group->users->getColumn('id') : array(),
+                                'selected' => $group->groups ? $group->groups->getColumn('id') : array(),
                                 'type' => 'profile',
                                 'relation' => 'ancestors'
                             )); ?>

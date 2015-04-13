@@ -43,7 +43,7 @@ defined('KOOWA') or die('Protected resource'); ?>
                 </td>
                 <td>
                     <a href="<?= @route('view=group&id='.$group->id) ?>">
-                        <?= @escape($user->title) ?>
+                        <?= @escape($group->title) ?>
                     </a>
                 </td>
                 <td>

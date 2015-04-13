@@ -9,8 +9,8 @@ class ComProfileDatabaseTableGroups extends KDatabaseTableDefault
                 'regions' => array(
                     'identifier' => 'com://admin/regions.model.regions'
                 ),
-                'users' => array(
-                    'identifier' => 'com://admin/profile.model.profiles'
+                'groups' => array(
+                    'identifier' => 'com://admin/profile.model.usergroups'
                 )
             )
         ));
