@@ -40,5 +40,9 @@
         </files>
 
         <menu>COM_PROFILES</menu>
+        <submenu>
+            <menu view="users">USERS</menu>
+            <menu view="groups">GROUPS</menu>
+        </submenu>
     </administration>
 </extension>
