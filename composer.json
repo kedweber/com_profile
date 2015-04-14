@@ -3,11 +3,11 @@
     "type": "joomlatools-installer",
     "description": "Articles Package.",
     "keywords": ["joomla", "profile"],
-    "homepage": "https://github.com/cta-int/portals",
+    "homepage": "https://github.com/cta-int/profile",
     "authors": [
         {
-            "name": "Joep van der Heijden",
-            "email": "joep@moyoweb.nl",
+            "name": "Moyo Web Architects",
+            "email": "info@moyoweb.nl",
             "homepage": "http://www.moyoweb.nl"
         }
     ],
