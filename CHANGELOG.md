@@ -2,6 +2,10 @@
 
 ## CHANGELOG
 
+### 1.1.2 - 16 april 2015
+
+* Added component-based ACL support
+
 ### 1.1.1 - 14 april 2015
 
 * Updated README.md
