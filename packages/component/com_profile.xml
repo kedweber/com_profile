@@ -7,7 +7,7 @@
     <license>http://www.gnu.org/licenses/gpl.html GNU/GPL v3</license>
     <authorEmail>info@moyoweb.nl</authorEmail>
     <authorUrl>www.moyoweb.nl</authorUrl>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <description>Management of Profiles</description>
 
     <install>
@@ -30,6 +30,8 @@
 
     <administration>
         <files folder="administrator/components/com_profile">
+            <file>access.xml</file>
+            <file>config.xml</file>
             <file>dispatcher.php</file>
             <file>profile.php</file>
 
