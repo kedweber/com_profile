@@ -30,6 +30,8 @@
 
     <administration>
         <files folder="administrator/components/com_profile">
+            <file>access.xml</file>
+            <file>config.xml</file>
             <file>dispatcher.php</file>
             <file>profile.php</file>
 
