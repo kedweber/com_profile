@@ -25,18 +25,30 @@ The profiles component was developed by [Moyo Web Architects](http://moyoweb.nl)
 Installation is done through composer. In your `composer.json` file, you should add the following lines to the repositories
 section:
 
+from this repository
+
 ```json
 {
-    "name": "cta/profile",
+    "name": "moyo/profile",
     "type": "vcs",
-    "url": "https://github.com/cta-int/profile.git"
+    "url": "https://github.com/kedweber/com_profile.git"
+}
+```
+
+and if drawn from the offical repository
+
+```json
+{
+    "name": "moyo/profile",
+    "type": "vcs",
+    "url": "https://github.com/moyoweb/com_profile.git"
 }
 ```
 
 The require section should contain the following line:
 
 ```json
-    "cta/profile": "1.1.*",
+    "moyo/com_profile": "1.1.*",
 ```
 
 Afterward, just run `composer update` from the root of your Joomla project.
