@@ -1,9 +1,9 @@
 {
-    "name": "cta/profile",
+    "name": "moyo/profile",
     "type": "joomlatools-installer",
     "description": "Articles Package.",
     "keywords": ["joomla", "profile"],
-    "homepage": "https://github.com/cta-int/profile",
+    "homepage": "https://github.com/moyoweb/com_profile",
     "authors": [
         {
             "name": "Moyo Web Architects",
